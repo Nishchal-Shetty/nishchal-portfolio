@@ -1,5 +1,6 @@
 'use client'
-
+import type { ReactNode } from "react";
+import type { LucideIcon } from "lucide-react";
 import { useState } from 'react'
 import Image from 'next/image'
 import { motion } from 'framer-motion'
@@ -112,7 +113,7 @@ const projects = [
 
 // ====== UI ======
 function ActivityBar({ onSection }: { onSection: (id: string) => void }) {
-  const Item = ({ icon: Icon, id }: { icon: any; id: string }) => (
+  const Item = ({ icon: Icon, id }: { icon: LucideIcon; id: string }) => (
     <button
       onClick={() => onSection(id)}
       className="p-3 hover:bg-zinc-800/60 text-zinc-400 hover:text-zinc-100 transition"
@@ -120,7 +121,7 @@ function ActivityBar({ onSection }: { onSection: (id: string) => void }) {
     >
       <Icon className="h-5 w-5" />
     </button>
-  )
+  );
   return (
     <aside className="hidden md:flex flex-col items-center bg-zinc-900 border-r border-zinc-800">
       <Item icon={FolderTree} id="about" />
@@ -128,7 +129,7 @@ function ActivityBar({ onSection }: { onSection: (id: string) => void }) {
       <Item icon={TerminalSquare} id="projects" />
       <Item icon={Settings} id="skills" />
     </aside>
-  )
+  );
 }
 
 function Explorer({ onSection }: { onSection: (id: string) => void }) {
@@ -174,12 +175,12 @@ function TopBar() {
   )
 }
 
-function Chip({ children }: { children: any }) {
+function Chip({ children }: { children: ReactNode }) {
   return (
     <span className="inline-flex items-center rounded-full border border-zinc-700 px-2 py-0.5 text-xs text-zinc-300">
       {children}
     </span>
-  )
+  );
 }
 
 export default function PortfolioVSCode() {
