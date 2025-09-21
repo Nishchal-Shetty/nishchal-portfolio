@@ -2,7 +2,7 @@
 
 A modern, fast **Next.js + TailwindCSS** portfolio that highlights my experience, skills, and selected projects — inspired by a VS-Code aesthetic with smooth motion and clean typography.
 
-> **Live Demo:** https://your-vercel-url.vercel.app  
+> **Live Demo:** https://nishchal-portfolio-kappa.vercel.app
 
 
 ---
@@ -29,6 +29,8 @@ A modern, fast **Next.js + TailwindCSS** portfolio that highlights my experience
 ---
 
 ## 📸 Screenshot
+
+![Portfolio Screenshot](public/screenshot.png)
 
 
 
