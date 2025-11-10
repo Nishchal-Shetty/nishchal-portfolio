@@ -19,12 +19,12 @@ A modern, fast **Next.js + TailwindCSS** portfolio that highlights my experience
 
 ## 🌟 Features
 
-- ⚡ Blazing-fast, responsive layout (mobile → desktop)  
-- 🖼️ Hero section with full-bleed personal photo background  
-- 🌓 Dark theme (default) with bold, high-contrast text  
-- 🧩 Reusable UI chips/cards; clean, accessible HTML  
-- 📄 One-click resume download
-- 🔁 CI-like auto-deploys on every push via Vercel
+- Blazing-fast, responsive layout (mobile → desktop)  
+- Hero section with full-bleed personal photo background  
+- Dark theme (default) with bold, high-contrast text  
+- Reusable UI chips/cards; clean, accessible HTML  
+- One-click resume download
+- CI-like auto-deploys on every push via Vercel
 
 ---
 
