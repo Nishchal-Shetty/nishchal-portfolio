@@ -99,7 +99,7 @@ const experience: ExperienceItem[] = [
   {
     company: 'Splunk (a Cisco Company)',
     role: 'Site Reliability Engineer Intern',
-    period: 'Sep 2025 – Present',
+    period: 'Sep 2025 – DEC 2025',
     logo: {
       src: '/logos/splunk.jpeg',
       alt: 'Splunk logo',
